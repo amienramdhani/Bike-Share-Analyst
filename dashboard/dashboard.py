@@ -5,7 +5,7 @@ import streamlit as st
 import os
 sns.set(style='dark')
 
-path = os.path.join(os.getcwd(), '../data/day.csv')
+path = os.path.join(os.getcwd(), 'day.csv')
 
 day = pd.read_csv(path)
 
